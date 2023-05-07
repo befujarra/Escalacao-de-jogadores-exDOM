@@ -1,27 +1,29 @@
-# Escalacao-de-jogadores-exDOM
-Projeto criado para resolução de exercicio do curso de programação One Bit Code
-Projeto de Escalação de Jogadores de Futebol
-Este projeto consiste em uma página web que permite aos usuários criar e remover jogadores de uma escalação de futebol. Ele é construído usando HTML, CSS e Javascript.
+Projeto de Escalação de Jogadores
+Este projeto é uma aplicação web que permite ao usuário criar uma escalação de jogadores de futebol. O usuário pode adicionar jogadores à escalação, bem como removê-los com base no número da camisa.
 
+Tecnologias Usadas
+Este projeto foi criado utilizando as seguintes tecnologias:
+
+HTML5
+CSS3
+JavaScript
 Funcionalidades
-O projeto possui as seguintes funcionalidades:
+O usuário pode realizar as seguintes ações nesta aplicação:
 
-Adicionar jogador: o usuário pode inserir o nome, número e posição do jogador em campos de texto e clicar em um botão para adicionar o jogador à escalação.
+Adicionar um jogador à escalação, informando seu nome, número da camisa e posição
+Remover um jogador da escalação com base no número da camisa
+Como Usar
+Para utilizar esta aplicação, basta abrir o arquivo index.html em seu navegador. Na página exibida, o usuário verá um campo para inserir as informações do jogador e um botão para adicioná-lo à escalação. Os jogadores adicionados aparecerão em uma tabela abaixo do formulário.
 
-Remover jogador: o usuário pode inserir o número da camisa do jogador que deseja remover em um campo de texto e clicar em um botão para remover o jogador da escalação.
+Para remover um jogador da escalação, basta clicar no botão "Remover" ao lado do jogador desejado.
 
-Exibir escalação: todos os jogadores adicionados à escalação são exibidos em uma lista abaixo dos campos de entrada.
+Arquivos do Projeto
+Este projeto contém os seguintes arquivos:
 
-O projeto foi feito de forma que o usuario deva confirma a escalação e a remoção do jogador, e tambem no codigo JS é feito a iteração dos campos para realizar a remoção somente do jogador que tiver o numero escolhido
-
-Estrutura do projeto
-O projeto é composto por três arquivos:
-
-index.html: contém a estrutura da página HTML, incluindo os campos de entrada e a lista de jogadores.
-
-style.css: contém as regras de estilo para a página, incluindo a formatação dos campos de entrada e da lista de jogadores.
-
-script.js: contém o código Javascript que implementa as funcionalidades de adição e remoção de jogadores.
-
+index.html: o arquivo HTML que contém a estrutura da página
+style.css: o arquivo CSS que contém as regras de estilo para a página
+script.js: o arquivo JavaScript que contém a lógica da aplicação
+Contribuindo
+Contribuições são sempre bem-vindas! Se você quiser contribuir para este projeto, basta criar um fork do repositório, fazer as alterações desejadas e enviar um pull request
 
 
