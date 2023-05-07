@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>exercício Escalação de times com DOM</title>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="card-container">
+        <div class="card-escalação">
+          <h1 class="h1-form">Escalar jogador</h1>
+          <br /><br />
+          <form action="">
+            <label for="name">Nome do jogador:</label><br />
+            <input type="text" id="name" class="name" required /><br /><br />
+            <label for="posicao">Posição:</label><br />
+            <input
+              type="text"
+              id="posicao"
+              class="posicao"
+              required
+            /><br /><br />
+            <label for="numero">Numero da camisa:</label><br />
+            <input
+              type="number"
+              id="numero"
+              class="numero"
+              required
+            /><br /><br />
+          </form>
+          <button class="btn" onclick="addPlayer()">ESCALAR</button>
+
+          <h3 class="h1-form">Remover Jogador</h3>
+          <br />
+          <div class="remove">
+            <form action="">
+              <input
+                type="number"
+                id="numeroRemove"
+                class="numeroRemove"
+                placeholder="Numero da camisa:"
+              /><br /><br />
+            </form>
+
+            <button class="btn2" onclick="removePlayer()">
+              Remover Jogador
+            </button>
+          </div>
+        </div>
+        <div class="card-jogadores">
+          <h1 class="h1-form">Jogadores</h1>
+          <section id="players"></section>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

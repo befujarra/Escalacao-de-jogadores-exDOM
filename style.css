@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family= Poppins :wght@100 & display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: url(assets/bg2.png);
+  background-position: center;
+  background-size: cover;
+}
+.hero {
+  height: 91vh;
+  width: 100%;
+}
+.h1-form {
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+.card-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+
+.card-escalação {
+  height: 600px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid white;
+  border-radius: 40px;
+  padding: 40px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  background-color: #4e775ab0;
+  box-shadow: 5px 5px 5px rgb(82, 82, 82);
+}
+.card-jogadores {
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 2px solid white;
+  border-radius: 40px;
+  padding: 40px;
+  font-weight: bold;
+  color: white;
+  background-color: #4e775ab0;
+  box-shadow: 5px 5px 5px rgb(82, 82, 82);
+}
+
+.card-jogadores h1 {
+  text-align: center;
+}
+.btn,
+.btn2 {
+  font-weight: bold;
+  background-color: white;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 30px;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.6);
+}
+.btn:hover {
+  background-color: #a6d8a9;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 30px;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.6);
+}
+.btn2 {
+  margin: auto;
+}
+.btn2:hover {
+  background-color: #a6d8a9;
+}
+.card-escalação label {
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
+.card-escalação input {
+  padding: 10px;
+  border-radius: 30px;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.6);
+}
+
+.remove input {
+  margin-left: auto;
+  padding: 5px;
+  border-radius: 30px;
+  border: 2px solid rgb(0, 0, 0);
+  box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.6);
+}
+
+#namePlayerTitles,
+#numPlayerTitles,
+#positionPlayerTitles {
+  text-shadow: black 0.1em 0.1em 0.2em;
+}
